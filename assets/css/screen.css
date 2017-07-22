@@ -558,9 +558,12 @@ button {
     position: relative;
     z-index: 10;
     min-height: 100%;
-    background: #fff;
     -webkit-transition: -webkit-transform 0.5s ease;
             transition: transform 0.5s ease;
+}
+
+.gradient-bg {
+    background: url(https://www.transparenttextures.com/patterns/cubes.png), linear-gradient(145deg,#c3f0c8,#509bf5);
 }
 
 body.nav-opened .site-wrapper {
@@ -1157,7 +1160,8 @@ body.page-template .post-title {
 .page-template .post {
     margin-top: 0;
     border-bottom: none;
-    padding-bottom: 0;
+    padding: 4em;
+    background: #fff;
 }
 
 /* Kill that stylish little circle that was on the border, too */
@@ -1170,7 +1174,7 @@ body.page-template .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
+    max-width: 100%;
     height: auto;
     padding: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the
@@ -1505,7 +1509,7 @@ body.page-template .post-title {
 
 /* Special styles for posts with no cover images */
 .read-next-story.no-cover {
-    background: #f5f8fa;
+    background: #fff;
 }
 
 .read-next-story.no-cover:before {
