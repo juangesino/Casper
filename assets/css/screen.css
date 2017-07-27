@@ -1162,6 +1162,7 @@ body.page-template .post-title {
     border-bottom: none;
     padding: 4em;
     background: #fff;
+    border-radius: 5px;
 }
 
 /* Kill that stylish little circle that was on the border, too */
