@@ -911,6 +911,16 @@ body.nav-opened .nav {
     color: #555;
 }
 
+/* When the navigation is closed and there is no cover image and light bg */
+.no-cover-lbg {
+  border-color: #555 !important;
+  color: #555 !important;
+}
+.no-cover-lbg:hover {
+    border-color: #555 !important;
+    color: #555 !important;
+}
+
 /* When the navigation is opened */
 .nav-opened .menu-button {
     padding: 0 12px;
