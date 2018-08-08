@@ -60,13 +60,21 @@
           readingTimeTarget: $('.eta'),
           wordsPerMinute: 180,
           success: function(data) {
-            console.log(data);
+
           },
           error: function(data) {
             console.log(data.error);
             $('.eta').remove();
             $('.eta-wrapper').remove();
           }
+        });
+      });
+    </script>
+    <script type="text/javascript" src="{{asset "js/scrollgress.js"}}"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('.post-content').scrollgress({
+          color: '#1c6e84'
         });
       });
     </script>
