@@ -5,6 +5,7 @@
 /*
 
     0.  Normalize
+    0.5 Custom Styles
     1.  Icons
     2.  General
     3.  Utilities
@@ -98,6 +99,24 @@ optgroup { font-weight: bold; }
 table{ border-collapse: collapse; border-spacing: 0; }
 td, th{ padding: 0; }
 
+
+/* ==========================================================================
+   0.5 Custom Style - New custom styles
+   ========================================================================== */
+
+/* Highlighted text classes */
+ mark.high-green {
+     background-color: rgba(233, 253, 240, 1) !important;
+ }
+ mark.high-blue {
+     background-color: rgba(2,179,228, .2) !important;
+ }
+ mark.high-red {
+     background-color: rgba(243,82,112, .2) !important;
+ }
+ mark.high-purple {
+     background-color: rgba(156,40,176, 0.2) !important;
+ }
 
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
