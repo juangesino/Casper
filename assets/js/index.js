@@ -15,9 +15,13 @@
 
         $(".scroll-down").arctic_scroll();
 
-        $(".menu-button, .nav-cover, .nav-close").on("click", function(e){
+        $(".menu-button, .nav-cover, .nav-title, .nav, .nav-open").on("click", function(e){
             e.preventDefault();
-            $("body").toggleClass("nav-opened nav-closed");
+            $("body").toggleClass("nav-opened").toggleClass("nav-closed");
+        });
+
+        $('.nav-close').click( function () {
+          $('body').remoeClass("nav-opened");
         });
 
     });
